@@ -18,3 +18,9 @@ Due to GitHub file size limitations, raw datasets are not included in this repos
 To reproduce results, download the dataset from the source above and place it in:
 
 `data/raw/`
+
+### Note on PySpark
+This project uses PySpark. If running locally, ensure:
+- Java is installed
+- Apache Spark is configured
+- OR run in Databricks
