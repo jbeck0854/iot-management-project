@@ -38,29 +38,32 @@ The model captures ~78% of traffic variance using only temporal and location-bas
 
 ## Repository Structure
 
-data/
-  raw/                # input datasets (not included in repo)
-  README.md
-
-docs/
-  clustering_summary.docx
-
-notebooks/
-  01_data_preparation_and_eda.ipynb
-  02_final_eda.ipynb
-  03_kmeans_clustering_analysis.ipynb
-  04_baseline_linear_model.ipynb
-  05_baseline_linear_model_2.ipynb
-  06_elastic_net_model.ipynb
-
-presentations/
-  final_presentation.pptx
-
-reports/
-  final_report.pdf
-
-README.md
-requirements.txt
+```
+.
+├── data/
+│   └── raw/                     # input datasets (not included in repo)
+│       └── README.md
+│
+├── docs/
+│   └── clustering_summary.docx
+│
+├── notebooks/
+│   ├── 01_data_preparation_and_eda.ipynb
+│   ├── 02_final_eda.ipynb
+│   ├── 03_kmeans_clustering_analysis.ipynb
+│   ├── 04_baseline_linear_model.ipynb
+│   ├── 05_baseline_linear_model_2.ipynb
+│   └── 06_elastic_net_model.ipynb
+│
+├── presentations/
+│   └── final_presentation.pptx
+│
+├── reports/
+│   └── final_report.pdf
+│
+├── README.md
+└── requirements.txt
+```
 
 ## How to Run
 
