@@ -1,0 +1,8 @@
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.env
+venv/
+01_Traffic_Volume_Counts_preprocessed.csv
+02_structured_traffic.csv
